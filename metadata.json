@@ -1,0 +1,5 @@
+{
+  "name": "Formulir Profil Risiko DJPL",
+  "description": "A robust React application that integrates with Google Sheets to populate advanced, searchable multi-select dropdowns, designed for high-concurrency usage with Excel export capabilities and AI-powered insights.",
+  "requestFramePermissions": []
+}
