@@ -4,8 +4,8 @@ import react from '@vitejs/plugin-react';
 import EnvironmentPlugin from 'vite-plugin-environment';
 
 export default defineConfig({
-  // WAJIB: Sesuai dengan nama repo di URL (case sensitive)
-  base: '/FormulirMR/', 
+  // SESUAI SCREENSHOT: nama repo Anda adalah 'formrisiko'
+  base: '/formrisiko/', 
   plugins: [
     react(),
     EnvironmentPlugin({
@@ -15,5 +15,6 @@ export default defineConfig({
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
+    emptyOutDir: true
   }
 });
